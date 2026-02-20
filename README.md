@@ -99,4 +99,4 @@ Buildspace shut down. Polywork shut down. Makerlog is fading. The space is wide 
 
 ## License
 
-TBD
+[MIT](LICENSE)
