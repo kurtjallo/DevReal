@@ -158,13 +158,77 @@ Which phases cover which requirements. Updated by create-roadmap.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| *(populated by create-roadmap)* | | |
+| AUTH-01 | Phase 2 | Pending |
+| AUTH-02 | Phase 2 | Pending |
+| AUTH-03 | Phase 2 | Pending |
+| AUTH-04 | Phase 2 | Pending |
+| AUTH-05 | Phase 2 | Pending |
+| ONBD-01 | Phase 3 | Pending |
+| ONBD-02 | Phase 3 | Pending |
+| ONBD-03 | Phase 3 | Pending |
+| CREW-01 | Phase 3 | Pending |
+| CREW-02 | Phase 3 | Pending |
+| CREW-03 | Phase 3 | Pending |
+| CREW-04 | Phase 5 | Pending |
+| CREW-05 | Phase 5 | Pending |
+| CREW-06 | Phase 5 | Pending |
+| LOOP-01 | Phase 4 | Pending |
+| LOOP-02 | Phase 4 | Pending |
+| LOOP-03 | Phase 4 | Pending |
+| LOOP-04 | Phase 4 | Pending |
+| LOOP-05 | Phase 4 | Pending |
+| LOOP-06 | Phase 4 | Pending |
+| LOOP-07 | Phase 4 | Pending |
+| LOOP-08 | Phase 6 | Pending |
+| LOOP-09 | Phase 6 | Pending |
+| LOOP-10 | Phase 6 | Pending |
+| LOOP-11 | Phase 4 | Pending |
+| LOOP-12 | Phase 4 | Pending |
+| VERF-01 | Phase 7 | Pending |
+| VERF-02 | Phase 7 | Pending |
+| VERF-03 | Phase 7 | Pending |
+| VERF-04 | Phase 9 | Pending |
+| VERF-05 | Phase 9 | Pending |
+| VERF-06 | Phase 7 | Pending |
+| VERF-07 | Phase 7 | Pending |
+| GHUB-01 | Phase 9 | Pending |
+| GHUB-02 | Phase 9 | Pending |
+| GHUB-03 | Phase 9 | Pending |
+| FEED-01 | Phase 5 | Pending |
+| FEED-02 | Phase 5 | Pending |
+| FEED-03 | Phase 6 | Pending |
+| FEED-04 | Phase 6 | Pending |
+| FEED-05 | Phase 6 | Pending |
+| GAME-01 | Phase 8 | Pending |
+| GAME-02 | Phase 8 | Pending |
+| GAME-03 | Phase 8 | Pending |
+| GAME-04 | Phase 8 | Pending |
+| GAME-05 | Phase 8 | Pending |
+| GAME-06 | Phase 8 | Pending |
+| GAME-07 | Phase 8 | Pending |
+| GAME-08 | Phase 8 | Pending |
+| GAME-09 | Phase 8 | Pending |
+| GAME-10 | Phase 8 | Pending |
+| GAME-11 | Phase 8 | Pending |
+| GAME-12 | Phase 9 | Pending |
+| PROF-01 | Phase 10 | Pending |
+| PROF-02 | Phase 10 | Pending |
+| PROF-03 | Phase 1 | Pending |
+| PROF-04 | Phase 1 | Pending |
+| PROF-05 | Phase 10 | Pending |
+| MNTZ-01 | Phase 10 | Pending |
+| MNTZ-02 | Phase 10 | Pending |
+| MNTZ-03 | Phase 10 | Pending |
+| PRIV-01 | Phase 2 | Pending |
+| PRIV-02 | Phase 6 | Pending |
+| PRIV-03 | Phase 10 | Pending |
+| PRIV-04 | Phase 10 | Pending |
 
 **Coverage:**
 - v1 requirements: 65 total
-- Mapped to phases: 0
-- Unmapped: 65
+- Mapped to phases: 65
+- Unmapped: 0 ✓
 
 ---
 *Requirements defined: 2026-02-20*
-*Last updated: 2026-02-20 after initial definition*
+*Last updated: 2026-02-20 after roadmap creation*
