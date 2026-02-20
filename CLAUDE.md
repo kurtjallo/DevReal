@@ -111,7 +111,7 @@ When entering plan mode, follow this protocol:
 - **Repo:** https://github.com/kurtjallo/DevReal.git
 - **Description:** BeReal-style accountability app for developers with crew-based verification and shipping leaderboards
 - **Tech stack (planned):** Next.js 15 + Supabase + Drizzle ORM + Vercel
-- **Current phase:** Pre-development (research complete, requirements defined, ready for roadmap)
+- **Current phase:** Pre-development (roadmap complete, 10 phases, ready to plan Phase 1)
 - **GSD config:** YOLO mode, comprehensive depth, parallel execution
 
 ### File Structure
@@ -121,6 +121,9 @@ When entering plan mode, follow this protocol:
 ├── config.json                     # GSD config (yolo, comprehensive, parallel)
 ├── PROJECT.md                      # Project definition, constraints, key decisions
 ├── REQUIREMENTS.md                 # v1 requirements (65 across 11 categories)
+├── ROADMAP.md                      # 10 phases mapped to all 65 requirements
+├── STATE.md                        # Project state and session continuity
+├── phases/                         # Phase directories (01-foundation through 10-profiles-monetization)
 └── research/                       # Synthesized research for planning
     ├── ARCHITECTURE.md             # Database schema, API routes, real-time patterns
     ├── FEATURES.md                 # Feature landscape (table stakes, differentiators, anti-features)
