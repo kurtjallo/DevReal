@@ -75,7 +75,7 @@ Features to deliberately NOT build. Common mistakes in this domain. Each anti-fe
 | A4 | **Single-metric leaderboard (streak length or points only)** | GitHub's contribution graph rewards noise over signal. Pure streak counting encourages trivial tasks. Single metrics are gameable. | Composite scoring: Consistency 35%, Completion 25%, Velocity 20%, Ambition 20%. Fibonacci complexity ratings. | GitHub contribution graph gaming, gamification research |
 | A5 | **Monetization before community** | Makerlog has no business model. Buildspace died with $1.5M revenue at $100M valuation. WIP's $199/yr Pro is overpriced for weak value. But monetizing too early kills network effects. | 100% free for months 0-6. Build community first, then introduce Pro tier with clear value at $9.99/mo. | Buildspace, WIP.co, Makerlog monetization analysis |
 | A6 | **Founder-dependent community** | Buildspace died when Farza burned out. WIP is Marc's side project. Community energy must be structural (crews), not personality-driven. | Design crews to generate their own energy. Product drives engagement, not a single personality. | Buildspace shutdown post-mortem |
-| A7 | **Native mobile app (at launch)** | Doubles development surface. Web app reaches all platforms. PWA can be added later if needed. Product-market fit matters more than platform. | Web app (Next.js 15) first. Responsive design for mobile browsers. Native only after PMF. | Scope management, FEATURE_SPEC.md constraints |
+| A7 | **Native mobile app (at launch)** | Doubles development surface. Web app reaches all platforms. PWA can be added later if needed. Product-market fit matters more than platform. | Web app (Next.js 15) first. Responsive design for mobile browsers. Native only after PMF. | Scope management, docs/feature-spec.md constraints |
 | A8 | **Video proof uploads** | Higher friction than screenshots. Larger storage costs. Harder to review quickly. Screenshot + URL + GitHub + text covers 95% of proof needs. | Screenshot upload + URL with liveness check + GitHub link + text description. Four formats is sufficient. | UX research on submission friction |
 | A9 | **Anonymous usage / no-auth mode** | GitHub OAuth is essential for developer identity, auto-verification, and trust. Anonymous usage undercuts accountability by design. | GitHub OAuth required from day one. Google OAuth as secondary. | Core product philosophy: "proof over promises" |
 | A10 | **Algorithmic feed** | Small groups (3-6) don't need algorithmic ranking. Chronological is simpler, fairer, and transparent. BeReal uses chronological successfully. | Chronological crew feed. Small group size makes algorithmic ranking unnecessary and potentially harmful. | BeReal UX teardown |
@@ -398,14 +398,14 @@ These features have value but should not distract from the core loop:
 
 All findings in this document are derived from:
 
-- `/Users/kurt/Documents/git-repos/BeShip/research/01-competitive-landscape.md` -- Competitor analysis of WIP.co, Makerlog, ShipStreaks, Buildspace, Indie Hackers, and 7 adjacent platforms
-- `/Users/kurt/Documents/git-repos/BeShip/research/03-gamification-mechanics.md` -- Duolingo, BeReal, Strava, GitHub, Snapchat gamification research; psychology of accountability; scoring system design; anti-gaming mechanisms
-- `/Users/kurt/Documents/git-repos/BeShip/research/04-target-audience.md` -- Build-in-public movement, indie hacker community, developer demographics, personas, cold start strategy
-- `/Users/kurt/Documents/git-repos/BeShip/research/05-monetization.md` -- Revenue models (Discord, Strava, Duolingo, GitHub, LinkedIn), pricing research, unit economics
-- `/Users/kurt/Documents/git-repos/BeShip/research/06-ux-patterns.md` -- BeReal UX teardown, social app patterns (Strava, Duolingo, Linear, GitHub, Notion), notification strategy, celebration animations
-- `/Users/kurt/Documents/git-repos/BeShip/research/07-verification-mechanisms.md` -- GitHub/GitLab/Bitbucket APIs, deploy verification, peer review systems, trust scores, anti-gaming measures
-- `/Users/kurt/Documents/git-repos/BeShip/FEATURE_SPEC.md` -- Existing feature specification and data model
-- `/Users/kurt/Documents/git-repos/BeShip/.planning/PROJECT.md` -- Project definition, requirements, constraints, key decisions
+- `docs/research/01-competitive-landscape.md` -- Competitor analysis of WIP.co, Makerlog, ShipStreaks, Buildspace, Indie Hackers, and 7 adjacent platforms
+- `docs/research/03-gamification-mechanics.md` -- Duolingo, BeReal, Strava, GitHub, Snapchat gamification research; psychology of accountability; scoring system design; anti-gaming mechanisms
+- `docs/research/04-target-audience.md` -- Build-in-public movement, indie hacker community, developer demographics, personas, cold start strategy
+- `docs/research/05-monetization.md` -- Revenue models (Discord, Strava, Duolingo, GitHub, LinkedIn), pricing research, unit economics
+- `docs/research/06-ux-patterns.md` -- BeReal UX teardown, social app patterns (Strava, Duolingo, Linear, GitHub, Notion), notification strategy, celebration animations
+- `docs/research/07-verification-mechanisms.md` -- GitHub/GitLab/Bitbucket APIs, deploy verification, peer review systems, trust scores, anti-gaming measures
+- `docs/feature-spec.md` -- Existing feature specification and data model
+- `.planning/PROJECT.md` -- Project definition, requirements, constraints, key decisions
 
 **Confidence assessment:**
 - Table stakes: HIGH -- validated against 5+ competitors and general accountability app patterns

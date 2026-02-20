@@ -547,5 +547,5 @@ devreal/
 ## Sources
 
 - npm registry (live queries, 2026-02-20) for all version numbers
-- Existing project research: `research/02-tech-stack.md` for rationale and alternatives analysis
+- Existing project research: `docs/research/02-tech-stack.md` for rationale and alternatives analysis
 - Training data (cutoff May 2025) for architecture patterns and library comparison -- flagged as MEDIUM confidence where applicable

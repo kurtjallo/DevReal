@@ -666,7 +666,7 @@ This reuses the connection across invocations within the same function instance.
 
 **Severity:** MEDIUM
 **Affects phase:** Phase 2 (Gamification) -- Scoring System
-**Confidence:** HIGH (game design principle; extensively analyzed in research/03-gamification-mechanics.md)
+**Confidence:** HIGH (game design principle; extensively analyzed in docs/research/03-gamification-mechanics.md)
 
 **What goes wrong:** The composite scoring formula (Consistency 35%, Completion Rate 25%, Shipping Velocity 20%, Ambition Score 20%) creates optimization targets. Users will find the highest-ROI metric to game. For example:
 - Consistency (35%) rewards showing up every day regardless of quality -- this has the highest weight, so users will prioritize daily presence over meaningful work

@@ -111,17 +111,31 @@ When entering plan mode, follow this protocol:
 - **Repo:** https://github.com/kurtjallo/DevReal.git
 - **Description:** BeReal-style accountability app for developers with crew-based verification and shipping leaderboards
 - **Tech stack (planned):** Next.js 15 + Supabase + Drizzle ORM + Vercel
-- **Current phase:** Pre-development (research complete, feature spec defined, GSD project initialized)
+- **Current phase:** Pre-development (research complete, requirements defined, ready for roadmap)
 - **GSD config:** YOLO mode, comprehensive depth, parallel execution
 
-### Files
-- `.planning/PROJECT.md` — GSD project definition with full requirements, constraints, and key decisions
-- `.planning/config.json` — GSD workflow config (yolo, comprehensive, parallel)
-- `FEATURE_SPEC.md` — Detailed feature spec with user flows, data model, and edge cases
-- `research/01-competitive-landscape.md` — Analysis of WIP.co, Makerlog, ShipStreaks, Buildspace, Indie Hackers
-- `research/02-tech-stack.md` — Full stack recommendation (Next.js 15, Supabase, Drizzle, Vercel)
-- `research/03-gamification-mechanics.md` — Scoring, streaks, leagues, anti-gaming, engagement loops
-- `research/04-target-audience.md` — Audience segments, personas, go-to-market, market sizing
-- `research/05-monetization.md` — Freemium model, pricing tiers, unit economics, revenue projections
-- `research/06-ux-patterns.md` — Screen designs, navigation, interactions, celebrations, design principles
-- `research/07-verification-mechanisms.md` — GitHub integration, deploy checks, peer review, trust scores
+### File Structure
+
+```
+.planning/                          # GSD workflow artifacts
+├── config.json                     # GSD config (yolo, comprehensive, parallel)
+├── PROJECT.md                      # Project definition, constraints, key decisions
+├── REQUIREMENTS.md                 # v1 requirements (65 across 11 categories)
+└── research/                       # Synthesized research for planning
+    ├── ARCHITECTURE.md             # Database schema, API routes, real-time patterns
+    ├── FEATURES.md                 # Feature landscape (table stakes, differentiators, anti-features)
+    ├── PITFALLS.md                 # 23 domain pitfalls with prevention strategies
+    ├── STACK.md                    # Technology stack (validated versions, cost analysis)
+    └── SUMMARY.md                  # Research executive summary
+
+docs/                               # Reference documentation
+├── feature-spec.md                 # Detailed feature spec (user flows, data model, edge cases)
+└── research/                       # Original deep-dive research
+    ├── 01-competitive-landscape.md # WIP.co, Makerlog, ShipStreaks, Buildspace, Indie Hackers
+    ├── 02-tech-stack.md            # Full stack recommendation and alternatives
+    ├── 03-gamification-mechanics.md # Scoring, streaks, leagues, anti-gaming
+    ├── 04-target-audience.md       # Audience segments, personas, go-to-market
+    ├── 05-monetization.md          # Freemium model, pricing tiers, unit economics
+    ├── 06-ux-patterns.md           # Screen designs, navigation, celebrations
+    └── 07-verification-mechanisms.md # GitHub integration, peer review, trust scores
+```
