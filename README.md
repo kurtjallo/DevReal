@@ -1,6 +1,6 @@
 # DevReal
 
-**Proof over promises.** A BeReal-style accountability app for developers. Join a crew of 3-6 devs, declare what you're shipping each day, prove it with time-boxed evidence, and compete in weekly leagues.
+**Proof over promises.** An accountability tool for developers who actually ship. Join a crew of 3-6 devs, commit to what you're building each day, and prove you did it — or get called out.
 
 ## What Is This?
 
@@ -11,7 +11,7 @@ The gap between "announcing what you're building" and "proving you built it" is 
 3. **Your crew verifies** the proof (or GitHub auto-verifies it)
 4. **Compete** in weekly leagues and climb permanent tiers
 
-No more performative build-in-public tweets. Real proof, real accountability, real shipping.
+Not a social network. Not a todo app. An accountability system with teeth.
 
 ## Core Features
 
@@ -22,10 +22,10 @@ No more performative build-in-public tweets. Real proof, real accountability, re
 - Optional evening reflection with mood tracking
 
 ### Crews (3-6 Members)
-- Small group accountability — not shouting into the void
+- Small group accountability — your crew holds you to your word
 - Shareable invite links and short codes
-- Crew feed with reactions: "Ship it!", "LGTM", "On it", "Call out"
-- Nudge system (1/person/day, neutral framing)
+- Activity feed so everyone sees who's shipping and who's stalling
+- Nudge system (1/person/day) to keep crewmates honest
 
 ### Verification
 - Crew-based peer verification (majority approval within 48h)
@@ -39,9 +39,9 @@ No more performative build-in-public tweets. Real proof, real accountability, re
 - Permanent tiers: Starter > Builder > Shipper > Architect > Legend
 - Celebration animations at every milestone
 
-### Profiles
+### Track Record
 - GitHub-style shipping heat map (52-week grid)
-- Public profile with streak counter, stats, and shipping history
+- Profile with streak counter, stats, and shipping history — your proof of work
 - Dark mode default
 
 ## Tech Stack
@@ -69,7 +69,7 @@ No more performative build-in-public tweets. Real proof, real accountability, re
 | 2 | Authentication | 6 | Not started |
 | 3 | Onboarding & Crews | 6 | Not started |
 | 4 | Core Loop (Declarations & Proof) | 9 | Not started |
-| 5 | Crew Feed & Social | 5 | Not started |
+| 5 | Crew Feed & Activity | 5 | Not started |
 | 6 | Ship Check & Notifications | 7 | Not started |
 | 7 | Peer Verification & Trust | 5 | Not started |
 | 8 | Gamification Engine | 11 | Not started |
@@ -87,15 +87,15 @@ docs/                   Feature spec and original research (7 deep-dives)
 
 ## Why DevReal?
 
-The competitive landscape is clearing: Buildspace shut down (Aug 2024), Polywork shut down (Jan 2025), Makerlog is uncertain. No existing platform combines:
+Every other "accountability" tool lets you check a box and move on. WIP.co, Makerlog, ShipStreaks — all self-reported, no verification, no consequences. DevReal is different:
 
-- Mandatory proof submission (not self-reported tasks)
-- Structured small-group verification (not shouting into the void)
-- Time-pressure mechanics (BeReal-style urgency)
-- Multi-metric competitive leagues (not single-metric leaderboards)
-- Auto-verification via GitHub (not trust-me-bro)
+- **You can't fake it** — proof is mandatory, not optional
+- **Your crew keeps you honest** — peer verification, not honor system
+- **Time pressure forces authenticity** — 5-minute window, no staging
+- **Scoring rewards real shipping** — composite metrics, not vanity streaks
+- **GitHub verifies automatically** — merged PRs don't need crew approval
 
-DevReal assembles the complete stack.
+Buildspace shut down. Polywork shut down. Makerlog is fading. The space is wide open for a tool that actually works.
 
 ## License
 
